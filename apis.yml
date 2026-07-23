@@ -1,7 +1,23 @@
 aid: aprende
 name: Aprende
-description: Aprende is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aprende (Aprende Institute) is an online vocational education platform delivering Spanish-language
+  courses and diplomados to Hispanic entrepreneurs and professionals across the United States and Latin America.
+  The platform offers on-demand, mobile-friendly training across six main areas — gastronomy, entrepreneurship,
+  wellness, beauty, skilled trades, and hospitality/events — taught by expert instructors, and is backed by 500 Global.
+  It operates as a consumer education company with no public developer API surface; this profile tracks its identity
+  and web properties in the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://aprende.com/wp-content/uploads/2020/09/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/aprende/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- E-Learning
+- Vocational Training
+- Online Courses
+- EdTech
+- Spanish
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aprende-domain-security.yml
 - type: Website
   url: https://aprende.com
+- type: Blog
+  url: https://aprende.com/blog/
+- type: HelpCenter
+  url: https://aprende.com/preguntas-frecuentes/
+- type: Login
+  url: https://campus.aprende.com/
+- type: TermsOfService
+  url: https://aprende.com/terminos-y-condiciones/
+- type: PrivacyPolicy
+  url: https://aprende.com/avisos-de-privacidad/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
