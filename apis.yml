@@ -6,6 +6,17 @@ description: Aprende (Aprende Institute) is an online vocational education platf
   wellness, beauty, skilled trades, and hospitality/events — taught by expert instructors, and is backed by 500 Global.
   It operates as a consumer education company with no public developer API surface; this profile tracks its identity
   and web properties in the API Evangelist network.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
